@@ -1,0 +1,43 @@
+# GitHub Pages Configuration for ULTRA PAPERS
+# This enables our live demo at: https://welshdog.github.io/HYPERFOCUS-ZONE-TEST-INFO-SYSYTEM/
+
+theme: jekyll-theme-minimal
+title: "ULTRA PAPERS - ADHD Innovation Excellence"
+description: "Revolutionary knowledge sharing system built by and for neurodivergent teams"
+
+# GitHub Pages will automatically serve docs/index.html as the homepage
+# Live demo will showcase our systematic excellence and community impact
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# SEO optimization for developer community discovery
+author: "HYPERFOCUS Team"
+twitter:
+  username: hyperfocus_team
+
+social:
+  name: HYPERFOCUS Team
+  links:
+    - https://github.com/welshDog/HYPERFOCUS-ZONE-TEST-INFO-SYSYTEM
+
+# Enable GitHub Pages features
+permalink: pretty
+highlighter: rouge
+markdown: kramdown
+
+# Site configuration
+url: "https://welshdog.github.io"
+baseurl: "/HYPERFOCUS-ZONE-TEST-INFO-SYSYTEM"
+
+# Navigation for easy community access
+navigation:
+  - title: "Live Demo"
+    url: "/docs/"
+  - title: "ULTRA PAPERS Template"
+    url: "/ULTRA_PAPERS/ULTRA_PAPERS_SYSTEM_TEMPLATE.md"
+  - title: "Team Hub"
+    url: "/ULTRA_PAPERS/TEAM_COORDINATION_HUB.md"
+  - title: "GitHub Repository"
+    url: "https://github.com/welshDog/HYPERFOCUS-ZONE-TEST-INFO-SYSYTEM"
